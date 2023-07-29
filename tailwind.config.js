@@ -5,8 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    debugScreens:{
+      position:['top','left']
+    },
     extend: {},
   },
-  plugins: [],
+  plugins: [require('tailwindcss-debug-screens')],
 }
 
