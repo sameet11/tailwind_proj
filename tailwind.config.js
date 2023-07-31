@@ -8,7 +8,15 @@ export default {
     debugScreens:{
       position:['top','left']
     },
-    extend: {},
+    extend: {
+      spacing: {
+        '41.48rem': '41.48rem',
+        '28rem':'28rem',
+        '25.5':'25.5',
+        '39':'39rem',
+        '60':'60rem'
+      }
+    },
   },
   plugins: [require('tailwindcss-debug-screens')],
 }
