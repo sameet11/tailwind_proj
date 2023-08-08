@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <title>tailwind-proj</title>
   </head>
   <body class="debug-screens">
@@ -623,6 +624,43 @@
         </div>
       </div>
     </section>
+
+    <!--newsletter-->
+
+    <section>
+
+
+      <!--main div-->
+      <div class="pt-24">
+
+        <!--header div-->
+        <div class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-600 text-center mb-4">
+          <h1>Get Updates on this course</h1>
+        </div>
+
+        <!--input div-->
+        <div class="mx-auto p-3 bg-white rounded-full lg:w-1/4 xl:flex mb-6 w-1/2">
+          <input  class="rounded-full m-2 w-full" type="email" placeholder="Enter Your email">
+          <button class="bg-gradient-to-r from-pink-400 to-indigo-500 hover:bg-gradient-to-rfrom-pink-800to-indigo-900 w-full p-2 rounded-full"><a href="href">Subscribe</a></button>
+        </div>
+
+        <hr class="h-px border-none bg-gray-700 mx-auto">
+
+        <!--footer-->
+        <div class="flex justify-between m-2 mb-4">
+          <div>
+            <h1 class="font-bold  text-2xl sm:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-600">tailwindcss Mastery</h1>
+          </div>
+          <div class="flex">
+            <a href="#" class="m-2">About</a>
+            <a href="#" class="m-2">Blog</a>
+            <a href="#" class="m-2">News</a>
+            <a href="#" class="m-2">Contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
   </body>
 </html>
